@@ -1,0 +1,135 @@
+.imagen {
+  max-width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+.alerta {
+  font-weight: 700;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.modal-contenedor {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.img-carrito {
+  width: 200px;
+  padding: 20px;
+}
+
+.modal-content {
+  background-color: #e3d8d6;
+}
+
+.parrafo {
+  font-weight: 900;
+  font-style: italic;
+}
+
+#precioTotal {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.boton {
+  opacity: 0;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+
+  -webkit-animation: sk-rotate 2s infinite linear;
+  animation: sk-rotate 2s infinite linear;
+}
+
+.dot1,
+.dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes sk-rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes sk-bounce {
+
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+#map {
+  height: 350px;
+  width: 600px;
+  position: relative;
+  left: 650px;
+  top: 100px;
+  
+}
+
+.texto{
+  position: relative;
+  top: 150px;
+  
+}
